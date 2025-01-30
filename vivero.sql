@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS oficina (
     id_oficina INT PRIMARY KEY AUTO_INCREMENT,
     codigo_oficina VARCHAR(10),
     ciudad VARCHAR(30),
-    país VARCHAR(50),
+    pais VARCHAR(50),
     region VARCHAR(50),
     codigo_postal VARCHAR(10),
     telefono VARCHAR(20)
@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS cliente (
     fax VARCHAR(15),
     ciudad VARCHAR(50),
     region VARCHAR(50),
-    país VARCHAR(50),
+    pais VARCHAR(50),
     codigo_postal VARCHAR(10),
     id_empleado INT,
     limite_credito DECIMAL(15,2),
